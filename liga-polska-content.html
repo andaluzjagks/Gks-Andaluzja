@@ -1,0 +1,73 @@
+<section class="page-header">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="#" onclick="navigate('home-content.html')">GKS Andaluzja</a> 
+            <span class="sep">/</span> <span>LIGA</span> <span class="sep">/</span> 
+            <span class="active">LIGA POLSKA</span>
+        </div>
+    </div>
+</section>
+
+<main class="container">
+    <section class="league-section" style="margin-bottom: 80px;">
+        <h2 class="section-title">DMP 2026 – I Liga</h2>
+        
+        <div class="table-responsive">
+            <table class="pro-table">
+                <thead>
+                    <tr>
+                        <th style="width: 50px;">#</th>
+                        <th>Klub</th>
+                        <th>I Runda</th>
+                        <th>II Runda</th>
+                        <th>III Runda</th>
+                        <th>IV Runda</th>
+                        <th style="text-align: right;">Suma Pkt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="promotion-row"><td>1.</td><td class="club-name">Górnik Polkowice</td><td>1 990.71</td><td>1 931.08</td><td>0.00</td><td>0.00</td><td class="points-strong">3 921.79</td></tr>
+                    <tr class="promotion-row"><td>2.</td><td class="club-name">Polwica Wierzbno</td><td>1 896.71</td><td>1 917.12</td><td>0.00</td><td>0.00</td><td class="points-strong">3 813.83</td></tr>
+                    <tr class="promotion-row"><td>3.</td><td class="club-name">Mazovia Ciechanów</td><td>1 847.58</td><td>1 905.08</td><td>0.00</td><td>0.00</td><td class="points-strong">3 752.66</td></tr>
+                    <tr class="promotion-row"><td>4.</td><td class="club-name">Budowlani Nowy Tomyśl</td><td>1 838.65</td><td>1 908.36</td><td>0.00</td><td>0.00</td><td class="points-strong">3 747.01</td></tr>
+                    <tr><td>5.</td><td class="club-name">LKS Dobryszyce</td><td>1 829.83</td><td>1 866.65</td><td>0.00</td><td>0.00</td><td class="points-strong">3 696.48</td></tr>
+                    <tr><td>6.</td><td class="club-name">Olimpijczyk Łuków</td><td>1 725.72</td><td>1 793.27</td><td>0.00</td><td>0.00</td><td class="points-strong">3 518.99</td></tr>
+                    <tr><td>7.</td><td class="club-name">Krajna Sępólno Krajeńskie</td><td>1 719.23</td><td>1 725.45</td><td>0.00</td><td>0.00</td><td class="points-strong">3 444.68</td></tr>
+                    <tr><td>8.</td><td class="club-name">Lechia Sędziszów Małopolski</td><td>1 584.87</td><td>1 600.58</td><td>0.00</td><td>0.00</td><td class="points-strong">3 185.45</td></tr>
+                    <tr class="my-club-row">
+    <td>9.</td>
+    <td class="club-name">
+        <a href="#sklad" style="color: inherit; text-decoration: none; border-bottom: 2px dashed var(--darker);">Andaluzja Piekary Śląskie</a> 
+        <span style="color: #2d7a2d; font-weight: 900; margin-left: 5px; font-size: 1.1em;" title="Awans w tabeli">↗</span>
+    </td>
+    <td>1 585.42</td><td>1 595.76</td><td>0.00</td><td>0.00</td><td class="points-strong">3 181.18</td>
+</tr>
+                    <tr><td>10.</td><td class="club-name">HKS Szopienice</td><td>1 523.58</td><td>1 554.89</td><td>0.00</td><td>0.00</td><td class="points-strong">3 078.47</td></tr>
+                    <tr class="relegation-row"><td>11.</td><td class="club-name">UMLKS Radomsko</td><td>1 486.09</td><td>1 481.32</td><td>0.00</td><td>0.00</td><td class="points-strong">2 967.41</td></tr>
+                    <tr class="relegation-row"><td>12.</td><td class="club-name">Tytan Oława</td><td>1 366.15</td><td>1 579.93</td><td>0.00</td><td>0.00</td><td class="points-strong">2 946.08</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <span class="league-note" style="font-size: 0.85em; color: var(--text-muted); margin-top: 15px; display: block; font-style: italic;">
+            * Stan na kwiecień 2026. Zielony: awans, Czerwony: spadek, Żółty: Twój klub. (Przesuń tabelę w bok na telefonie).
+        </span>
+    </section>
+</main>
+
+<style>
+    /* Klasa tworząca przewijanie na telefonach */
+    .table-responsive { width: 100%; overflow-x: auto; background: var(--white); border-radius: 12px; box-shadow: var(--shadow); border: 1px solid var(--border-color); -webkit-overflow-scrolling: touch; }
+    
+    .pro-table { width: 100%; border-collapse: collapse; min-width: 700px; font-size: 0.95em; }
+    .pro-table th { padding: 18px 15px; text-align: left; font-weight: 800; text-transform: uppercase; font-size: 0.8em; background: var(--darker); color: var(--primary); border-bottom: 3px solid var(--primary); white-space: nowrap; }
+    .pro-table td { padding: 16px 15px; border-bottom: 1px solid #eee; transition: var(--transition); }
+    .pro-table tbody tr:nth-child(even) { background-color: #fafafa; }
+    .pro-table tbody tr:hover { filter: brightness(0.96); box-shadow: inset 5px 0 0 var(--primary); }
+
+    .promotion-row { background-color: #f0fdf0 !important; } 
+    .relegation-row { background-color: #fff5f5 !important; }
+    .my-club-row { background-color: rgba(255, 204, 0, 0.15) !important; font-weight: 800; }
+
+    .club-name { color: var(--darker); font-weight: bold; }
+    .points-strong { font-weight: 900; color: var(--darker); text-align: right; }
+</style>

@@ -1,0 +1,120 @@
+<section class="page-header" style="background-color: #f4f4f4; padding: 20px 0; border-bottom: 1px solid #ddd; margin-bottom: 30px;">
+    <div class="container">
+        <div class="breadcrumb" style="font-size: 0.85em; color: #666; text-transform: uppercase; font-weight: 700;">
+            <a href="#" onclick="navigate('home-content.html')" style="text-decoration: none; color: #666; transition: color 0.3s;">GKS Andaluzja</a> 
+            <span style="margin: 0 10px; color: #ccc;">/</span> 
+            <span style="color: #ffcc00;">AKTUALNOŚCI</span>
+        </div>
+    </div>
+</section>
+
+<main class="container">
+    <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="text-transform: uppercase; font-size: 2em; border-bottom: 4px solid #ffcc00; display: inline-block; padding-bottom: 10px;">Najnowsze Aktualności</h2>
+    </div>
+
+    <div class="news-grid">
+        
+        <article class="news-card">
+            <div class="news-image">
+                <img src="zdjecie-zawody-u20.jpg" alt="Zawody MP U20">
+                <span class="category">Sukcesy</span>
+            </div>
+            <div class="news-content">
+                <span class="news-date">28 marca 2026</span>
+                <h3>Świetny występ naszych chłopaków na MP U20 w Ciechanowie!</h3>
+                <p>28 marca na ciechanowskim pomoście wystartowała nasza trójka z ODEV GKS Andaluzja! 💪
+• Igor Garbowski: 251 kg w dwuboju (111 + 140) – 5. miejsce! 🔥
+• Piotr Szymański: 245 kg w dwuboju (110 + 135) – 7. miejsce! 👊
+• Jakub Duda: 218 kg w dwuboju (95 + 123) – 9. miejsce! 😎</p>
+                <a href="https://www.facebook.com/share/p/1CCJCUbUEu/" target="_blank" class="fb-link">Zobacz na Facebooku</a>
+            </div>
+        </article>
+
+        <article class="news-card">
+            <div class="news-image">
+                <img src="gotowinamp20!.jpg" alt="Regeneracja">
+                <span class="category">Regeneracja</span>
+            </div>
+            <div class="news-content">
+                <span class="news-date">Marzec 2026</span>
+                <h3>🚀 GOTOWI NA MP U20! 🚀</h3>
+                <p>Trójka naszych zawodników szykuje się na mistrzostwa Polski do lat 20! 💪 W ramach odnowy biologicznej zaliczyli sesję w Normobaria Świerklaniec – pełna regeneracja przed wielką walką! 🔥</p>
+                <a href="https://www.facebook.com/share/p/1AzG3FaAah/" target="_blank" class="fb-link">Zobacz szczegóły</a>
+            </div>
+        </article>
+
+        <article class="news-card">
+            <div class="news-image">
+                <img src="szopienice2026.jpg" alt="Liga">
+                <span class="category">Drużynowa Liga Polski</span>
+            </div>
+            <div class="news-content">
+                <span class="news-date">Luty 2026</span>
+                <h3>🏋️‍♂️ Szopienice 2026: Nasza ekipa walczy! 🏋️‍♀️</h3>
+                <p>GKS Andaluzja wystartowała na 2. rzucie PLPC! Nasze wyniki drużynowe – 9. miejsce w I lidze! 💪 Dodatkowo Sandra Spyra otrzymała medale 100-lecia PZPC oraz 105-lecia ŚZPC. 🥇🥇</p>
+                <a href="https://www.facebook.com/share/p/1BVTeKC5Vb/" target="_blank" class="fb-link">Zobacz szczegóły</a>
+            </div>
+        </article>
+
+        <article class="news-card">
+            <div class="news-image">
+                <img src="https://suplementyisport.pl/data/include/cms/hmslogo_1.png" alt="HMS">
+                <span class="category">Dotacje i inwestycje</span>
+            </div>
+            <div class="news-content">
+                <span class="news-date">Styczeń 2026</span>
+                <h3>💪 Dotacja z programu „Klub Pro” ⚙️🏋️‍♀️</h3>
+                <p>Dzięki Ministerstwu Sportu i Turystyki nasza siłownia zyskała nowe wyposażenie! 🚀 Sprzęt firmy HMS w 100% spełnił nasze oczekiwania – solidny i niezawodny! 👏</p>
+                <a href="https://www.facebook.com/share/v/14XnUNWYAc5/" target="_blank" class="fb-link">Zobacz wideo</a>
+            </div>
+        </article>
+        <section class="container" style="margin-top: 50px; text-align: center;">
+    <h3 style="text-transform: uppercase; font-size: 1.2em; margin-bottom: 20px;">Bądź na bieżąco na Facebooku</h3>
+    <div style="background: #f9f9f9; padding: 20px; border-radius: 12px; display: inline-block;">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v18.0"></script>
+        
+        <div class="fb-page" 
+             data-href="https://www.facebook.com/p/Odev-GKS-Andaluzja-61578789607910/" 
+             data-tabs="timeline" 
+             data-width="500" 
+             data-height="400" 
+             data-small-header="false" 
+             data-adapt-container-width="true" 
+             data-hide-cover="false" 
+             data-show-facepile="true">
+        </div>
+    </div>
+</section>
+    </div> 
+</main>
+
+<style>
+    .news-grid { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+        gap: 30px; 
+        margin-bottom: 50px; 
+    }
+    .news-card { 
+        background: #fff; 
+        border-radius: 12px; 
+        overflow: hidden; 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+        transition: 0.3s; 
+        display: flex; 
+        flex-direction: column;
+        border: 1px solid #eee;
+    }
+    .news-card:hover { transform: translateY(-10px); border-color: #ffcc00; }
+    .news-image { position: relative; height: 250px; }
+    .news-image img { width: 100%; height: 100%; object-fit: cover; }
+    .category { position: absolute; top: 15px; left: 15px; background: #ffcc00; color: #000; padding: 5px 12px; font-weight: 800; font-size: 0.7em; text-transform: uppercase; border-radius: 4px; }
+    .news-content { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+    .news-date { font-size: 0.85em; color: #888; margin-bottom: 10px; font-weight: bold; }
+    .news-content h3 { margin: 0 0 15px 0; font-size: 1.25em; line-height: 1.4; color: #111; }
+    .news-content p { font-size: 0.95em; color: #444; line-height: 1.6; margin-bottom: 20px; white-space: pre-wrap; flex-grow: 1; }
+    .fb-link { text-align: center; background: #1877F2; color: #fff; text-decoration: none; padding: 12px; border-radius: 6px; font-weight: bold; transition: 0.3s; margin-top: auto; }
+    .fb-link:hover { background: #145dbf; }
+</style>

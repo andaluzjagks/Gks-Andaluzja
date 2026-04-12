@@ -1,0 +1,152 @@
+<section class="page-header">
+    <div class="container">
+        <div class="breadcrumb">GKS Andaluzja / <span style="color: #ffcc00;">REKORDY KLUBU</span></div>
+    </div>
+</section>
+
+<main class="container" style="position: relative; min-height: 500px; padding-bottom: 80px;">
+    
+    <div class="coming-soon-overlay">
+        <div class="coming-soon-content">
+            <div class="icon-box">🏋️‍♂️</div>
+            <h2>STREFA REKORDÓW</h2>
+            <h1 class="glitch-text">JUŻ WKRÓTCE</h1>
+            <p>Trwają prace nad weryfikacją archiwalnych wyników i rekordów klubu. <br> Przygotowujemy dla Was coś wyjątkowego!</p>
+            <div class="loading-bar">
+                <div class="progress"></div>
+            </div>
+            <a href="#aktualnosci" class="btn-back">WRÓĆ DO AKTUALNOŚCI</a>
+        </div>
+    </div>
+
+    <div style="filter: blur(8px); opacity: 0.3; pointer-events: none; user-select: none;">
+        <h2 class="section-title">Rekordy Wszechczasów</h2>
+        <div class="table-responsive" style="background: white; border-radius: 12px; border: 1px solid #eee; overflow: hidden;">
+            <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                <thead>
+                    <tr style="background: #111; color: #ffcc00;">
+                        <th style="padding: 20px;">Zawodnik</th>
+                        <th style="padding: 20px;">Rwanie</th>
+                        <th style="padding: 20px;">Podrzut</th>
+                        <th style="padding: 20px;">Dwubój</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td style="padding: 15px 20px;">Igor Garbowski</td><td>115 kg</td><td>146 kg</td><td>261 kg</td></tr>
+                    <tr><td style="padding: 15px 20px;">Piotr Szymański</td><td>110 kg</td><td>135 kg</td><td>245 kg</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+<style>
+    /* STYLIZACJA NAKŁADKI */
+    .coming-soon-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(4px);
+        border-radius: 15px;
+    }
+
+    .coming-soon-content {
+        max-width: 600px;
+        padding: 40px;
+        background: var(--darker);
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+        border-bottom: 5px solid var(--primary);
+        animation: fadeIn 0.8s ease-out;
+    }
+
+    .icon-box {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        display: inline-block;
+        animation: bounce 2s infinite;
+    }
+
+    .coming-soon-content h2 {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+        color: var(--primary);
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+    .coming-soon-content h1 {
+        font-size: clamp(2rem, 8vw, 3.5rem);
+        font-weight: 900;
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+
+    .coming-soon-content p {
+        color: #aaa;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    /* ANIMOWANY PASEK POSTĘPU */
+    .loading-bar {
+        width: 100%;
+        height: 6px;
+        background: #333;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .progress {
+        width: 75%; /* Poziom zaawansowania prac */
+        height: 100%;
+        background: var(--primary);
+        box-shadow: 0 0 15px var(--primary);
+        animation: pulse 2s infinite;
+    }
+
+    .btn-back {
+        display: inline-block;
+        padding: 15px 30px;
+        background: var(--primary);
+        color: var(--darker);
+        text-decoration: none;
+        font-weight: 900;
+        border-radius: 8px;
+        transition: 0.3s;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+
+    .btn-back:hover {
+        background: white;
+        transform: scale(1.05);
+    }
+
+    /* ANIMACJE */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    @keyframes pulse {
+        0% { opacity: 1; }
+        50% { opacity: 0.6; }
+        100% { opacity: 1; }
+    }
+</style>
