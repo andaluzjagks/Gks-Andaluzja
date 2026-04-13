@@ -122,18 +122,34 @@ header img:hover {
         .dropdown-content { position: static; width: 100%; box-shadow: none; background: #0a0a0a; border-top: none; }
         .dropdown.open .dropdown-content { display: block; }
     }
+    
+    .header-logo {
+    height: clamp(40px, 8vw, 80px); 
+    width: auto;
+    transition: transform 0.3s ease;
+    }
+
+    .header-logo:hover {
+    transform: scale(1.1); 
+    }
+
+
+    @media (max-width: 480px) {
+    .hide-mobile {
+        display: none;
+    }
+}
     </style>
 </head>
 <body>
     
     <header>
     <a href="#glowna" style="display: flex; align-items: center; justify-content: center; gap: clamp(10px, 3vw, 30px); text-decoration: none; color: inherit; width: 100%;">
-        <img src="logo.ico" alt="Logo GKS Andaluzja" onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<span style=\'font-size: 20px;\'>🏋️‍♂️</span>');">
+        <img src="logo.png" alt="Logo GKS Andaluzja" class="header-logo" onerror="this.src='logo.ico'">
         <h1>GKS Andaluzja</h1>
-        <img src="logo.ico" alt="Logo GKS Andaluzja" onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<span style=\'font-size: 20px;\'>🏋️‍♂️</span>');">
+        <img src="logo.png" alt="Logo GKS Andaluzja" class="header-logo hide-mobile" onerror="this.src='logo.ico'">
     </a>
 </header>
-
     <nav>
         <button class="menu-toggle" id="mobile-menu" aria-label="Otwórz menu">
             <span></span><span></span><span></span>
