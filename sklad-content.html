@@ -59,14 +59,6 @@
                 <span class="new-role-badge">TRENER</span>
             </div>
         </div>
-
-        <!-- <div class="player-card coach-card" onclick="window.openCoachModal('Artur Borecki', 'Trener', '', 'logo.ico')">
-            <div class="player-photo"><img src="logo.ico" alt="Artur Borecki"></div>
-            <div class="player-info">
-                <h3 class="player-name">Artur Borecki</h3>
-                <span class="new-role-badge">TRENER</span>
-            </div> -->
-        </div>
     </div>
 
     <h2 class="section-title">Statystyki Zespołu</h2>
@@ -88,67 +80,104 @@
 
     <h2 class="section-title">Karta Zawodników</h2>
     <div class="squad-grid" id="playersGrid">
-        <div class="player-card filter-item male" data-birth="2008" data-gender="male" onclick="window.openPlayerModal('Jakub Duda', '2008', '100', '123', '223', '240.64', 'Jakub Duda.png')">
-            <div class="player-photo"><img src="Jakub Duda.png" alt="Jakub Duda"></div>
-            <div class="player-info"><h3 class="player-name">Jakub Duda</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Julia Duda', '2011', '75', '90', '165', '192,7', 'Julia Duda.png')">
-            <div class="player-photo"><img src="Julia Duda.png" alt="Julia Duda"></div>
-            <div class="player-info"><h3 class="player-name">Julia Duda</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Alicja Lachowska', '2011', '45', '55', '100', '139,7', 'Alicja Lachowska.png')">
-            <div class="player-photo"><img src="Alicja Lachowska.png" alt="Alicja Lachowska"></div>
-            <div class="player-info"><h3 class="player-name">Alicja Lachowska</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Alicja Mika', '2011', '33', '50', '83', '105.00', 'Alicja Mika.png')">
-            <div class="player-photo"><img src="Alicja Mika.png" alt="Alicja Mika"></div>
-            <div class="player-info"><h3 class="player-name">Alicja Mika</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="2010" data-gender="male" onclick="window.openPlayerModal('Franciszek Kafka', '2010', '104', '125', '229', '277.93', 'Franciszek Kafka.png')">
-            <div class="player-photo"><img src="Franciszek Kafka.png" alt="Franciszek Kafka"></div>
-            <div class="player-info"><h3 class="player-name">Franciszek Kafka</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="2008" data-gender="male" onclick="window.openPlayerModal('Igor Garbowski', '2008', '115', '146', '261', '299.45', 'Igor Garbowski.png')">
-            <div class="player-photo"><img src="Igor Garbowski.png" alt="Igor Garbowski"></div>
-            <div class="player-info"><h3 class="player-name">Igor Garbowski</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="1993" data-gender="male" onclick="window.openPlayerModal('Daniel Gzel', '1993', '80', '93', '173', '255.11', 'Daniel Gzel.png')">
-            <div class="player-photo"><img src="Daniel Gzel.png" alt="Daniel Gzel"></div>
-            <div class="player-info"><h3 class="player-name">Daniel Gzel</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="2007" data-gender="male" onclick="window.openPlayerModal('Piotr Szymański', '2007', '110', '135', '245', '287.08', 'Piotr Szymański.png')">
-            <div class="player-photo"><img src="Piotr Szymański.png" alt="Piotr Szymański"></div>
-            <div class="player-info"><h3 class="player-name">Piotr Szymański</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Natalia Sobota', '2011', '63', '78', '141', '191,4', 'Natalia Sobota.png')">
-            <div class="player-photo"><img src="Natalia Sobota.png" alt="Natalia Sobota"></div>
-            <div class="player-info"><h3 class="player-name">Natalia Sobota</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="1994" data-gender="male" onclick="window.openPlayerModal('Robert Gawęcki', '1994', '99', '116', '215', '260.38', 'Robert Gawęcki.png')">
-            <div class="player-photo"><img src="Robert Gawęcki.png" alt="Robert Gawęcki"></div>
-            <div class="player-info"><h3 class="player-name">Robert Gawęcki</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="2013" data-gender="male" onclick="window.openPlayerModal('Mikołaj Kędzia', '2013', '-', '-', '-', '-', 'Mikołaj Kędzia.png')">
-            <div class="player-photo"><img src="Mikołaj Kędzia.png" alt="Mikołaj Kędzia"></div>
-            <div class="player-info"><h3 class="player-name">Mikołaj Kędzia</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2010" data-gender="female" onclick="window.openPlayerModal('Magdalena Derkacz', '2010', '55', '67', '122', '143,4', 'Magdalena Derkacz.png')">
-            <div class="player-photo"><img src="Magdalena Derkacz.png" alt="Magdalena Derkacz"></div>
-            <div class="player-info"><h3 class="player-name">Magdalena Derkacz</h3></div>
-        </div>
-        <div class="player-card filter-item male" data-birth="2012" data-gender="male" onclick="window.openPlayerModal('Maciej Jendrzej', '2012', '-', '-', '-', '-', 'Maciej Jendrzej.png')">
-            <div class="player-photo"><img src="Maciej Jendrzej.png" alt="Maciej Jendrzej"></div>
-            <div class="player-info"><h3 class="player-name">Maciej Jendrzej</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Zofia Grzesińska', '2011', '-', '-', '-', '-', 'Zofia Grzesińska.png')">
-            <div class="player-photo"><img src="Zofia Grzesińska.png" alt="Zofia Grzesińska"></div>
-            <div class="player-info"><h3 class="player-name">Zofia Grzesińska</h3></div>
-        </div>
-        <div class="player-card filter-item female" data-birth="2004" data-gender="female" onclick="window.openPlayerModal('Angelika Paszek', '2004', '59', '68', '127', '159', 'Angelika Paszek.png')">
-            <div class="player-photo"><img src="Angelika Paszek.png" alt="Angelika Paszek"></div>
-            <div class="player-info"><h3 class="player-name">Angelika Paszek</h3></div>
-        </div>
+    <div class="player-card filter-item male" data-birth="2008" data-gender="male" onclick="window.openPlayerModal('Jakub Duda', '2008', '102', '123', '225', '240.64', 'Jakub Duda.png')">
+        <div class="player-photo"><img src="Jakub Duda.png" alt="Jakub Duda"></div>
+        <div class="player-info"><h3 class="player-name">Jakub Duda</h3></div>
     </div>
+    <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Julia Duda', '2011', '75', '90', '165', '192.7', 'Julia Duda.png')">
+        <div class="player-photo"><img src="Julia Duda.png" alt="Julia Duda"></div>
+        <div class="player-info"><h3 class="player-name">Julia Duda</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Alicja Lachowska', '2011', '45', '57', '102', '139.7', 'Alicja Lachowska.png')">
+        <div class="player-photo"><img src="Alicja Lachowska.png" alt="Alicja Lachowska"></div>
+        <div class="player-info"><h3 class="player-name">Alicja Lachowska</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Alicja Mika', '2011', '33', '50', '83', '105.00', 'Alicja Mika.png')">
+        <div class="player-photo"><img src="Alicja Mika.png" alt="Alicja Mika"></div>
+        <div class="player-info"><h3 class="player-name">Alicja Mika</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="2010" data-gender="male" onclick="window.openPlayerModal('Franciszek Kafka', '2010', '106', '126', '232', '277.93', 'Franciszek Kafka.png')">
+        <div class="player-photo"><img src="Franciszek Kafka.png" alt="Franciszek Kafka"></div>
+        <div class="player-info"><h3 class="player-name">Franciszek Kafka</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="2008" data-gender="male" onclick="window.openPlayerModal('Igor Garbowski', '2008', '115', '146', '261', '299.45', 'Igor Garbowski.png')">
+        <div class="player-photo"><img src="Igor Garbowski.png" alt="Igor Garbowski"></div>
+        <div class="player-info"><h3 class="player-name">Igor Garbowski</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="1993" data-gender="male" onclick="window.openPlayerModal('Daniel Gzel', '1993', '80', '93', '173', '255.11', 'Daniel Gzel.png')">
+        <div class="player-photo"><img src="Daniel Gzel.png" alt="Daniel Gzel"></div>
+        <div class="player-info"><h3 class="player-name">Daniel Gzel</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="2007" data-gender="male" onclick="window.openPlayerModal('Piotr Szymański', '2007', '111', '136', '247', '287.08', 'Piotr Szymański.png')">
+        <div class="player-photo"><img src="Piotr Szymański.png" alt="Piotr Szymański"></div>
+        <div class="player-info"><h3 class="player-name">Piotr Szymański</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2011" data-gender="female" onclick="window.openPlayerModal('Natalia Sobota', '2011', '63', '78', '141', '191.4', 'Natalia Sobota.png')">
+        <div class="player-photo"><img src="Natalia Sobota.png" alt="Natalia Sobota"></div>
+        <div class="player-info"><h3 class="player-name">Natalia Sobota</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="1994" data-gender="male" onclick="window.openPlayerModal('Robert Gawęcki', '1994', '99', '116', '215', '260.38', 'Robert Gawęcki.png')">
+        <div class="player-photo"><img src="Robert Gawęcki.png" alt="Robert Gawęcki"></div>
+        <div class="player-info"><h3 class="player-name">Robert Gawęcki</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="2013" data-gender="male" onclick="window.openPlayerModal('Mikołaj Kędzia', '2013', '31', '38', '69', '-', 'Mikołaj Kędzia.png')">
+        <div class="player-photo"><img src="Mikołaj Kędzia.png" alt="Mikołaj Kędzia"></div>
+        <div class="player-info"><h3 class="player-name">Mikołaj Kędzia</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="2012" data-gender="male" onclick="window.openPlayerModal('Maciej Jendrzej', '2012', '-', '-', '-', '-', 'Maciej Jendrzej.png')">
+        <div class="player-photo">
+            <!-- <span class="new-player-badge">NOWY</span> -->
+            <img src="Maciej Jendrzej.png" alt="Maciej Jendrzej">
+        </div>
+        <div class="player-info"><h3 class="player-name">Maciej Jendrzej</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2012" data-gender="female" onclick="window.openPlayerModal('Zofia Grzesińska', '2012', '-', '-', '-', '-', 'Zofia Grzesińska.png')">
+        <div class="player-photo">
+            <!-- <span class="new-player-badge">NOWA</span> -->
+            <img src="Zofia Grzesińska.png" alt="Zofia Grzesińska">
+        </div>
+        <div class="player-info"><h3 class="player-name">Zofia Grzesińska</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2010" data-gender="female" onclick="window.openPlayerModal('Magdalena Derkacz', '2010', '55', '67', '122', '143.4', 'Magdalena Derkacz.png')">
+        <div class="player-photo"><img src="Magdalena Derkacz.png" alt="Magdalena Derkacz"></div>
+        <div class="player-info"><h3 class="player-name">Magdalena Derkacz</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2004" data-gender="female" onclick="window.openPlayerModal('Angelika Paszek', '2004', '59', '68', '127', '159', 'Angelika Paszek.png')">
+        <div class="player-photo"><img src="Angelika Paszek.png" alt="Angelika Paszek"></div>
+        <div class="player-info"><h3 class="player-name">Angelika Paszek</h3></div>
+    </div>
+
+    <!-- <div class="player-card filter-item female" data-birth="2003" data-gender="female" onclick="window.openPlayerModal('Agnieszka Broncel', '2003', '63', '77', '140', '-', 'Agnieszka Broncel.png')">
+        <div class="player-photo">
+            <img src="Agnieszka Broncel.png" alt="Agnieszka Broncel">
+        </div>
+        <div class="player-info"><h3 class="player-name">Agnieszka Broncel</h3></div>
+    </div> -->
+    <div class="player-card filter-item female" data-birth="2009" data-gender="female" onclick="window.openPlayerModal('Milena Ludyga', '2009', '54', '70', '124', '-', 'Milena Ludyga.png')">
+        <div class="player-photo">
+            <img src="Milena Ludyga.png" alt="Milena Ludyga">
+        </div>
+        <div class="player-info"><h3 class="player-name">Milena Ludyga</h3></div>
+    </div>
+    <div class="player-card filter-item female" data-birth="2014" data-gender="female" onclick="window.openPlayerModal('Pia Szczepanik', '2014', '-', '-', '-', '-', 'Pia Szczepanik.png')">
+        <div class="player-photo">
+            <img src="Pia Szczepanik.png" alt="Pia Szczepanik">
+        </div>
+        <div class="player-info"><h3 class="player-name">Pia Szczepanik</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="2012" data-gender="male" onclick="window.openPlayerModal('Marcin Ramfeld', '2012', '55', '70', '125', '-', 'Marcin Ramfeld.png')">
+        <div class="player-photo">
+            <img src="Marcin Ramfeld.png" alt="Marcin Ramfeld">
+        </div>
+        <div class="player-info"><h3 class="player-name">Marcin Ramfeld</h3></div>
+    </div>
+    <div class="player-card filter-item male" data-birth="#" data-gender="male" onclick="window.openPlayerModal('Borys Szczepanik', '#', '40', '50', '90', '-', 'Borys Szczepanik.png')">
+        <div class="player-photo">
+            <img src="Borys Szczepanik.png" alt="Borys Szczepanik">
+        </div>
+        <div class="player-info"><h3 class="player-name">Borys Szczepanik</h3></div>
+    </div>
+</div>
 </main>
 
 <div id="pModal" class="modal-overlay" style="display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); backdrop-filter: blur(8px);">
@@ -159,11 +188,19 @@
             <h2 id="m-name"></h2>
             <p id="m-year"></p>
             
-            <div id="stats-view" class="m-grid">
-                <div class="m-stat"><span class="m-label">Rwanie</span><span class="m-val"><span id="m-snatch"></span> kg</span></div>
-                <div class="m-stat"><span class="m-label">Podrzut</span><span class="m-val"><span id="m-clean"></span> kg</span></div>
-                <div class="m-stat highlight-stat"><span class="m-label">Dwubój</span><span class="m-val highlight-val"><span id="m-total"></span> kg</span></div>
-                <div class="m-stat highlight-stat"><span class="m-label">Sinclair</span><span class="m-val highlight-val" id="m-sinclair"></span></div>
+            <div id="stats-view">
+                <div class="m-grid" style="grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 15px;">
+                    <div class="m-stat"><span class="m-label">Rwanie</span><span class="m-val"><span id="m-snatch"></span> kg</span></div>
+                    <div class="m-stat"><span class="m-label">Podrzut</span><span class="m-val"><span id="m-clean"></span> kg</span></div>
+                    <div class="m-stat highlight-stat"><span class="m-label">Dwubój</span><span class="m-val highlight-val"><span id="m-total"></span> kg</span></div>
+                </div>
+                
+                <div style="background: #262626; padding: 15px; border-radius: 10px; border: 1px solid #333; text-align: left;">
+                        <h4 style="color: #ffcc00; margin: 0 0 10px 0; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1px;">Ostatnie starty</h4>
+                         <ul id="m-history-list" style="margin: 0; padding-left: 20px; color: #ccc; font-size: 0.85em; line-height: 1.6;">
+                     <li>Ładowanie danych...</li>
+                    </ul>
+            </div>
             </div>
 
             <div id="coach-view" style="display: none; background: #262626; padding: 20px; border-radius: 10px; border: 1px solid #ffcc00; text-align: left; line-height: 1.6;">
@@ -178,11 +215,9 @@
     /* BAZOWE STYLE */
     .section-title { text-align: center; text-transform: uppercase; font-size: 2em; margin-bottom: 40px; position: relative; padding-bottom: 10px; }
     .section-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background-color: #ffcc00; }
-    #content-area .section-title {
-    border-left: none !important;
-    padding-left: 0 !important;
-}
-    /* ZĘBATKA I SIDEBAR (Przebudowane dla responsywności) */
+    #content-area .section-title { border-left: none !important; padding-left: 0 !important; }
+    
+    /* ZĘBATKA I SIDEBAR */
     .filter-toggle { position: fixed; right: 0; top: 50%; transform: translateY(-50%); width: 55px; height: 55px; background: #ffcc00; display: flex; align-items: center; justify-content: center; cursor: pointer; border-radius: 10px 0 0 10px; z-index: 1090; box-shadow: -2px 0 10px rgba(0,0,0,0.2); transition: right 0.4s ease; }
     .filter-toggle img { width: 30px; height: 30px; }
     .filter-sidebar { position: fixed; right: -280px; top: 0; height: 100vh; width: 280px; background: #1a1a1a; padding: 100px 20px 20px; box-shadow: -5px 0 15px rgba(0,0,0,0.5); transition: right 0.4s ease; z-index: 1050; overflow-y: auto; color: white; }
@@ -194,31 +229,36 @@
     .filter-btn.active { background: #ffcc00; color: #000; }
     .category-select { width: 100%; background: #333; color: white; border: 1px solid #444; padding: 12px; border-radius: 5px; font-family: 'Montserrat'; margin-bottom: 20px; }
 
-    /* KARTY ZAWODNIKÓW (Płynna siatka) */
+    /* KARTY ZAWODNIKÓW */
     .squad-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 30px; }
     .player-card { background: white; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; text-align: center; cursor: pointer; transition: 0.3s; }
     .player-card:hover { border-color: #ffcc00; transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
-    .player-photo { height: 320px; background: #eee; overflow: hidden; }
+    .player-photo { height: 320px; background: #eee; overflow: hidden; position: relative; } /* POSITION RELATIVE DODANE TUTAJ! */
     .player-photo img { width: 100%; height: 100%; object-fit: cover; }
     .player-info { padding: 20px; border-top: 1px solid #eee; }
     .player-name { text-transform: uppercase; font-size: 1.1em; margin: 0; font-weight: 800; }
 
-    /* Wyróżnienie sekcji Sztabu Szkoleniowego */
-    .coach-card { /* Specjalne style dla trenerów */
-        border: 2px solid #ffcc00 !important; /* Złota ramka zamiast szarej */
-    }
-    .new-role-badge { /* Nowa, subtelna etykieta na dole w kolorze klubu, bez tła */
-        display: block;
-        color: #ffcc00;
-        font-size: 0.8em;
+    /* --- NOWOŚĆ: ZNACZNIK NOWEGO ZAWODNIKA --- */
+    .new-player-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ffcc00;
+        color: #111;
+        font-size: 0.75em;
         font-weight: 900;
         text-transform: uppercase;
-        margin-top: 15px;
-        border-top: 1px solid #ddd;
-        padding-top: 10px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        z-index: 2;
+        letter-spacing: 1px;
     }
 
-    /* MODAL ZAWODNIKA (Zabezpieczenia dla Responsywności) */
+    .coach-card { border: 2px solid #ffcc00 !important; }
+    .new-role-badge { display: block; color: #ffcc00; font-size: 0.8em; font-weight: 900; text-transform: uppercase; margin-top: 15px; border-top: 1px solid #ddd; padding-top: 10px; }
+
+    /* MODAL ZAWODNIKA */
     .modal-box { background: #1a1a1a; margin: 5vh auto; width: 95%; max-width: 450px; border: 2px solid #ffcc00; border-radius: 15px; color: white; position: relative; overflow-y: auto; max-height: 90vh; animation: fadeInUp 0.4s; }
     .close-btn { position: absolute; right: 20px; top: 10px; color: #ffcc00; font-size: 40px; cursor: pointer; z-index: 10; }
     .m-photo { width: 100%; height: 280px; object-fit: cover; border-bottom: 3px solid #ffcc00; }
@@ -226,7 +266,7 @@
     #m-name { text-transform: uppercase; margin: 0; font-size: 1.8em; }
     #m-year { color: #ffcc00; font-weight: 700; margin: 5px 0 20px; letter-spacing: 1px; }
     
-    .m-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .m-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
     .m-stat { background: #262626; padding: 15px; border-radius: 10px; border: 1px solid #333; }
     .m-label { display: block; color: #aaa; text-transform: uppercase; font-size: 0.7em; margin-bottom: 5px; font-weight: 700; }
     .m-val { font-size: 1.4em; font-weight: 900; }
@@ -235,38 +275,27 @@
 
     @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-    /* ========================================= */
-    /* === MEDIA QUERIES (PERFEKCYJNE RWD) === */
-    /* ========================================= */
-    
-    /* Tablety i średnie ekrany */
+    /* MEDIA QUERIES */
     @media (max-width: 992px) {
         .squad-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
         .player-photo { height: 250px; }
     }
-
-    /* Standardowe telefony pionowo (np. iPhone, Samsung) */
     @media (max-width: 768px) {
         .squad-grid { grid-template-columns: 1fr 1fr; gap: 15px; padding: 0 5px; }
         .player-photo { height: 200px; }
         .player-name { font-size: 0.95em; }
         .m-photo { height: 200px; }
-        
         .filter-sidebar { width: 250px; right: -250px; }
         .filter-toggle.active { right: 250px !important; }
     }
-
-    /* Bardzo małe telefony (np. iPhone SE) - Wymuszenie 1 kolumny */
     @media (max-width: 480px) {
         .squad-grid { grid-template-columns: 1fr; gap: 20px; }
         .player-photo { height: 320px; }
         .player-name { font-size: 1.2em; }
-        
         .m-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
         .m-val { font-size: 1.2em; }
         .m-content { padding: 15px; }
     }
-
 </style>
 
 <script>
@@ -295,16 +324,12 @@
         const searchVal = document.getElementById('searchInput').value.toLowerCase();
         
         const grid = document.getElementById('playersGrid');
-        
-        // Dynamiczny rok do obliczeń - w 2027 automatycznie postarzy zawodników!
-        const cYear = new Date().getFullYear(); // System sam pobierze aktualny rok!
+        const cYear = new Date().getFullYear(); 
 
         cardsArray.forEach(c => {
             const name = c.querySelector('h3').innerText.toLowerCase();
             const birth = parseInt(c.dataset.birth);
             const gender = c.dataset.gender;
-
-            // Obliczanie wieku na podstawie różnicy lat
             const age = cYear - birth;
 
             const mSearch = name.includes(searchVal);
@@ -312,7 +337,6 @@
             
             let mAge = (ageVal === 'all');
             
-            // LOGIKA OPARTA STRICTE NA WIEKU ZAWODNIKA (PZPC i Twoje wytyczne)
             if (ageVal === 'mlodzicy' && age <= 12) mAge = true;
             else if (ageVal === 'u15' && age >= 13 && age <= 15) mAge = true;
             else if (ageVal === 'u17' && age >= 16 && age <= 17) mAge = true;
@@ -326,10 +350,8 @@
         cardsArray.sort((a, b) => {
             const birthA = parseInt(a.dataset.birth);
             const birthB = parseInt(b.dataset.birth);
-            
             if (sortVal === 'oldest') return birthA - birthB; 
             if (sortVal === 'youngest') return birthB - birthA; 
-            
             return parseInt(a.dataset.index) - parseInt(b.dataset.index); 
         });
 
@@ -401,5 +423,65 @@
         if (event.target == modal) window.closePlayerModal();
     });
 
-    setTimeout(window.updateStats, 200);
+    // Uruchamianie przeliczania po załadowaniu
+    setTimeout(() => {
+        window.updateStats();
+    }, 200);
+    window.openPlayerModal = function(name, year, snatch, clean, total, sinclair, img) {
+        const modal = document.getElementById('pModal');
+        if (!modal) return;
+        
+        document.getElementById('m-name').innerText = name;
+        document.getElementById('m-year').innerText = "ROCZNIK: " + year;
+        document.getElementById('m-img').src = img;
+        document.getElementById('m-snatch').innerText = snatch;
+        document.getElementById('m-clean').innerText = clean;
+        document.getElementById('m-total').innerText = total;
+        
+        document.getElementById('stats-view').style.display = 'block';
+        document.getElementById('coach-view').style.display = 'none';
+        
+        // Resetujemy listę i pokazujemy status ładowania
+        const historyList = document.getElementById('m-history-list');
+        historyList.innerHTML = '<li style="color: #888;">Szukam w archiwum... ⏳</li>';
+
+        // POBIERANIE DANYCH Z ARCHIWUM
+        fetch('terminarz-content.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                // Szukamy wszystkich kart w archiwum
+                const archiveCards = doc.querySelectorAll('.results-grid .lifting-card');
+                let historyHTML = '';
+
+                archiveCards.forEach(card => {
+                    // Jeśli karta zawiera imię i nazwisko zawodnika w kodzie HTML tabeli:
+                    if(card.innerHTML.includes(name)) {
+                        // Wyciągamy tytuł zawodów i datę z nagłówka karty
+                        const titleSpan = card.querySelector('span[style*="color:#ffcc00"]');
+                        const dateSpan = card.querySelector('span[style*="color: #888"]');
+                        
+                        if (titleSpan) {
+                            const title = titleSpan.innerText;
+                            const date = dateSpan ? dateSpan.innerText : '';
+                            historyHTML += `<li><strong style="color: white;">${title}</strong> <span style="color:#aaa; font-size:0.9em;">(${date})</span></li>`;
+                        }
+                    }
+                });
+
+                // Jeśli nic nie znaleziono lub zawodnik nie startował
+                if(historyHTML === '') {
+                    historyHTML = '<li style="color: #888;">Brak startów w zapisanym archiwum.</li>';
+                }
+                
+                historyList.innerHTML = historyHTML;
+            })
+            .catch(err => {
+                historyList.innerHTML = '<li style="color: #ff4444;">Nie udało się wczytać historii. Sprawdź połączenie z serwerem.</li>';
+            });
+
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden";
+    };
 </script>
