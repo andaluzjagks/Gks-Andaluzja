@@ -47,6 +47,76 @@
         <h2 class="section-title" style="text-align: left; margin: 40px 0 30px 0; text-transform: uppercase; font-size: 1.8em; border-left: 8px solid #333; padding-left: 15px; color: white;">Wyniki Archiwalne</h2>
 
         <div class="results-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding-bottom: 20px; align-items: start;">
+            <div class="lifting-card" onclick="toggleDetails(this)" style="background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px solid #333; color: white; cursor: pointer; transition: 0.3s;">
+                <div style="padding: 20px; background: #111;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 15px;">
+                        <div>
+                            <span style="color:#ffcc00; font-weight:900; text-transform:uppercase; font-size:1.1em; display: block;">Obóz sportowy COS Spała</span>
+                            <span style="font-size: 0.85em; color: #888;">16–23 Sierpnia 2026</span>
+                        </div>
+                        <span class="arrow" style="transition: 0.3s; color: #000; font-size: 0.9em; background: #ffcc00; padding: 5px 10px; border-radius: 50%;">▼</span>
+                    </div>
+                </div>
+                <div class="details" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; background: #151515;">
+                    <div style="position: relative; width: 100%;">
+                        <img src="oboz_spala.jpg" onerror="this.src='logo.ico'" alt="Obóz COS Spała" style="width: 100%; height: auto; display: block; filter: brightness(0.9);">
+                    </div>
+                    <div style="padding: 25px; color:#ddd;">
+                        <p>W dniach 16–23 sierpnia zawodnicy sekcji podnoszenia ciężarów GKS Andaluzja przebywali na obozie w COS Spała. Tydzień intensywnego treningu i integracji, sfinansowany z programu Klub PRO.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lifting-card" onclick="toggleDetails(this)" style="background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px solid #333; color: white; cursor: pointer; transition: 0.3s;">
+                <div style="padding: 20px; background: #111;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 15px;">
+                        <div>
+                            <span style="color:#ffcc00; font-weight:900; text-transform:uppercase; font-size:1.1em; display: block;">Laureaci Programu KLUB PRO 2026</span>
+                            <span style="font-size: 0.85em; color: #888;">Lipiec 2026</span>
+                        </div>
+                        <span class="arrow" style="transition: 0.3s; color: #000; font-size: 0.9em; background: #ffcc00; padding: 5px 10px; border-radius: 50%;">▼</span>
+                    </div>
+                </div>
+                <div class="details" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; background: #151515;">
+                    <div style="position: relative; width: 100%;">
+                        <img src="klubpro.jpg" onerror="this.src='logo.ico'" alt="Klub PRO" style="width: 100%; height: auto; display: block; filter: brightness(0.9);">
+                    </div>
+                    <div style="padding: 25px; color:#ddd;">
+                        <p>GKS Andaluzja został laureatem Programu KLUB PRO 2026 (Fundacja LOTTO / MSiT). Pozyskane środki przeznaczymy na obóz, sprzęt i opiekę fizjoterapeutyczną.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lifting-card" onclick="toggleDetails(this)" style="background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px solid #333; color: white; cursor: pointer; transition: 0.3s;">
+                <div style="padding: 20px; background: #111;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 15px;">
+                        <div>
+                            <span style="color:#ffcc00; font-weight:900; text-transform:uppercase; font-size:1.1em; display: block;">Memoriał Henryka Skowronka</span>
+                            <span style="font-size: 0.85em; color: #888;">5 Lipca 2026</span>
+                        </div>
+                        <span class="arrow" style="transition: 0.3s; color: #000; font-size: 0.9em; background: #ffcc00; padding: 5px 10px; border-radius: 50%;">▼</span>
+                    </div>
+                </div>
+
+                <div class="details" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; background: #151515;">
+                    <div style="position: relative; width: 100%;">
+                        <img src="memorial.jpg" onerror="this.src='logo.ico'" alt="Memoriał" style="width: 100%; height: auto; display: block; filter: brightness(0.9);">
+                        <div style="position: absolute; bottom: 15px; left: 15px; background: #ffcc00; color: #000; padding: 6px 12px; font-size: 0.75em; font-weight: 900; text-transform: uppercase; border-radius: 6px;">Dwa srebra dla naszego klubu</div>
+                    </div>
+                    <div style="padding: 25px; color:#ddd;">
+                        <p>Alicja Lachowska – 2. miejsce U15 (dwubój 98 kg: 43 + 55).<br>Marcin Ramfeld – 2. miejsce U15 (dwubój 138 kg: 60 + 78). Ogromne gratulacje dla zawodników i trenera Jacka Mazura.</p>
+                        <div style="width: 100%; overflow-x: auto; padding-top:10px;">
+                            <table style="width: 100%; border-collapse: collapse; font-size: 0.9em; background: #1a1a1a; border: 1px solid #333;">
+                                <thead style="background: #111; color:#ffcc00;"><tr><th style="padding:10px; text-align:left;">Zawodnik</th><th style="padding:10px; text-align:center;">Kategoria</th><th style="padding:10px; text-align:center;">Rwanie</th><th style="padding:10px; text-align:center;">Podrzut</th><th style="padding:10px; text-align:center;">Dwubój</th></tr></thead>
+                                <tbody>
+                                    <tr style="border-top:1px solid #222;"><td style="padding:10px;">Alicja Lachowska</td><td style="padding:10px; text-align:center;">U15 - dziewczęta</td><td style="padding:10px; text-align:center;">43 kg</td><td style="padding:10px; text-align:center;">55 kg</td><td style="padding:10px; text-align:center;">98 kg</td></tr>
+                                    <tr style="border-top:1px solid #222;"><td style="padding:10px;">Marcin Ramfeld</td><td style="padding:10px; text-align:center;">U15 - chłopcy</td><td style="padding:10px; text-align:center;">60 kg</td><td style="padding:10px; text-align:center;">78 kg</td><td style="padding:10px; text-align:center;">138 kg</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="lifting-card" onclick="toggleDetails(this)" style="background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px solid #333; color: white; cursor: pointer; transition: 0.3s;">
                 
@@ -578,6 +648,18 @@
     .lifting-card a:hover { background: #145dbf !important; }
 </style>
 
+<style>
+    .archive-placeholder .no-results { color: #ffcc00; font-weight: 900; display: inline-block; margin-top: 8px; }
+</style>
+
+<style>
+    .archive-placeholder { padding: 16px; }
+    .archive-placeholder .archive-details { max-height: 0; overflow: hidden; transition: max-height .25s ease-out; }
+    .archive-placeholder:hover .archive-details { max-height: 400px; }
+    .archive-placeholder .archive-details h3 { color: #fff; margin:0 0 6px 0; }
+    .archive-placeholder .archive-details p { color: #ccc; margin:0; }
+</style>
+
 <script>
     function toggleDetails(card) {
         const details = card.querySelector('.details');
@@ -647,13 +729,16 @@
                 const dataZawodow = new Date(dateAttr + "T00:00:00");
                 
                 if (dataZawodow < dzisiaj) {
-                    const nazwaZawodow = card.querySelector('h3').innerText;
+                    const nazwaZawodow = card.querySelector('h3') ? card.querySelector('h3').innerText : 'Wydarzenie';
+                    const infoHTML = card.querySelector('.upcoming-info') ? card.querySelector('.upcoming-info').innerHTML : '';
                     card.remove();
                     
                     const archivePlaceholder = document.createElement('div');
-                    archivePlaceholder.className = "lifting-card";
-                    archivePlaceholder.style.cssText = "background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px dashed #555; padding: 25px; margin-bottom: 20px; color: #888; text-align: center;";
-                    archivePlaceholder.innerHTML = "Wydarzenie <b>" + nazwaZawodow + "</b> zostało zarchiwizowane. Wyniki wkrótce!";
+                    archivePlaceholder.className = "lifting-card archive-placeholder";
+                    archivePlaceholder.style.cssText = "background: #1a1a1a; border-radius: 12px; overflow: hidden; border: 1px dashed #555; padding: 20px; margin-bottom: 20px; color: #ddd; text-align: left;";
+                    archivePlaceholder.innerHTML = "<div style='display:flex;justify-content:space-between;align-items:center;gap:10px;'><div style='font-weight:900;color:#ffcc00;text-transform:uppercase;'>" + nazwaZawodow + "</div><div style='font-weight:900;color:#ffcc00;' class='no-results'>Wyniki niedostępne</div></div><div class='archive-details' style='max-height:0;overflow:hidden;transition:max-height .3s ease-out;margin-top:12px;color:#bbb;'>" + infoHTML + "</div>";
+                    archivePlaceholder.setAttribute('title','Najedź, aby zobaczyć szczegóły');
+                    archivePlaceholder.style.cursor = 'pointer';
                     if (resultsGrid) {
                         resultsGrid.prepend(archivePlaceholder);
                     }
